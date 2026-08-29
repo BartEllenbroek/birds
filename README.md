@@ -13,9 +13,14 @@ to install.
    branch `main`, folder `/ (root)`, and save.
 4. A minute later the site is at `https://<your-username>.github.io/<repo-name>/`.
 
-`data/sightings.json` starts empty. To see the app with something in it before you add your own,
-copy `data/sightings.example.json` over it — six records across New Zealand, the Netherlands
-and the Ross Sea, enough to light up the map and the stats.
+Uploading through the browser takes three passes, because GitHub accepts at most 100 files at a
+time and `photos/` holds 263. Send everything except `photos/` first (35 files), then the images
+in two or three batches. GitHub Desktop does it in one commit if you would rather install it.
+
+`data/sightings.json` is pre-loaded with 270 records covering 264 species, and `photos/` already
+holds all 263 images, resized for the web. 109 records carry coordinates and appear on the map;
+the rest have none, because the photographs hold no GPS or capture metadata — those have to be
+filled in by hand, on the Add tab or by editing the file. Dates are blank throughout.
 
 To try it locally first, run `python3 -m http.server` in this folder and open
 `http://localhost:8000`. Opening `index.html` by double-clicking will *not* work —
@@ -72,17 +77,25 @@ each encounter is its own record.
 
 `sci` must match an AviList scientific name exactly — that is the key the app joins on.
 Records with `lat`/`lon` appear on the map; records with a `photo` show a thumbnail in the
-checklist and the full image in the detail panel.
+checklist and the full image in the detail panel. A species can hold several records — one per
+encounter — and a record needs neither a photo nor a coordinate.
+
+## Filtering the checklist
+
+Search matches English and scientific names and eBird codes. The Order and Family dropdowns are
+linked: choosing an order narrows Family to that order's families, and choosing a family fills in
+the order it belongs to. "Range mentions" searches the AviList distribution text, so typing
+*New Zealand* finds everything recorded from there.
 
 ## Photo sizes
 
-GitHub Pages serves whatever you commit, but a repository over about 1 GB gets unwieldy and
-full-resolution files make the checklist slow to scroll. Resizing the long edge to ~1600 px
-is plenty:
+The images in `photos/` are already web-sized: anything over 1600 px on the long edge was
+resized, and anything already smaller was left untouched rather than re-compressed. The folder
+is about 29 MB. For photos you add later:
 
 ```bash
 # macOS / Linux, with ImageMagick
-mogrify -resize '1600x1600>' -quality 82 photos/*.jpg
+mogrify -resize '1600x1600>' -quality 86 photos/*.jpg
 ```
 
 ## Credits

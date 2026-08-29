@@ -21,27 +21,29 @@
 @font-face { font-family:"Newsreader"; src:url("vendor/fonts/newsreader-latin-500-italic.woff2") format("woff2"); font-weight:500; font-style:italic; font-display:swap; }
 
 /* ─────────────────────────────────────────────────────────────
-   Tokens — light is the base; dark redefines only the values.
+   A single warm palette. The page deliberately does not follow the viewer's
+   dark-mode setting — it stays this colour everywhere, so every value below
+   is painted explicitly rather than inherited from the host.
    ───────────────────────────────────────────────────────────── */
 :root {
-  --bg:        #F5F7F5;
-  --surface:   #FFFFFF;
-  --surface-2: #EBEFEC;
-  --surface-3: #E1E7E3;
-  --ink:       #16211F;
-  --ink-2:     #56635F;
-  --ink-3:     #7C8A85;
-  --line:      #D5DCD8;
-  --line-soft: #E5EAE7;
-  --accent:    #0E6E63;
-  --accent-ink:#FFFFFF;
-  --accent-sub:#D6EAE6;
-  --brass:     #A2681A;
-  --shadow:    0 1px 2px rgba(18,36,32,.06), 0 8px 24px rgba(18,36,32,.07);
-  --shadow-sm: 0 1px 2px rgba(18,36,32,.08);
+  --bg:        #F2EDE1;   /* warm cream ground */
+  --surface:   #FBF8F0;   /* panels, header, cards — a shade above the ground */
+  --surface-2: #E9E2D2;   /* row hover, muted fills */
+  --surface-3: #DDD4C0;   /* bar tracks */
+  --ink:       #2B2620;   /* warm near-black, never pure black */
+  --ink-2:     #6A6153;
+  --ink-3:     #928873;
+  --line:      #DCD3BF;
+  --line-soft: #E7E0D0;
+  --accent:    #0F6157;   /* deep teal — reads clearly against cream */
+  --accent-ink:#FBF8F0;
+  --accent-sub:#E1E7D9;   /* selection wash, warmed so it sits on the cream */
+  --brass:     #8A5A16;
+  --shadow:    0 1px 2px rgba(64,50,26,.07), 0 8px 24px rgba(64,50,26,.09);
+  --shadow-sm: 0 1px 2px rgba(64,50,26,.10);
 
-  --lc: #4F9A45; --nt: #8FA83A; --vu: #D0A227; --en: #D2711F;
-  --cr: #C0392B; --ex: #5C6663; --dd: #8B9793;
+  --lc: #4A8C3F; --nt: #7F9633; --vu: #C2941F; --en: #C4661A;
+  --cr: #B23325; --ex: #6B655A; --dd: #918873;
 
   --r: 8px;
   --head: 56px;
@@ -49,48 +51,6 @@
   --serif: "Newsreader", Georgia, "Times New Roman", serif;
   --mono: "Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   color-scheme: light;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg:        #0D1412;
-    --surface:   #151F1D;
-    --surface-2: #1C2725;
-    --surface-3: #24312E;
-    --ink:       #E6EDE9;
-    --ink-2:     #94A29D;
-    --ink-3:     #75837E;
-    --line:      #2A3835;
-    --line-soft: #202C29;
-    --accent:    #3EB3A2;
-    --accent-ink:#07201C;
-    --accent-sub:#17322E;
-    --brass:     #D9973C;
-    --shadow:    0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
-    --shadow-sm: 0 1px 2px rgba(0,0,0,.4);
-    --lc: #6BBF60; --nt: #A9C24F; --vu: #E2B843; --en: #E8884A;
-    --cr: #E05B4C; --ex: #7A8582; --dd: #8B9793;
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg:        #0D1412;
-  --surface:   #151F1D;
-  --surface-2: #1C2725;
-  --surface-3: #24312E;
-  --ink:       #E6EDE9;
-  --ink-2:     #94A29D;
-  --ink-3:     #75837E;
-  --line:      #2A3835;
-  --line-soft: #202C29;
-  --accent:    #3EB3A2;
-  --accent-ink:#07201C;
-  --accent-sub:#17322E;
-  --brass:     #D9973C;
-  --shadow:    0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
-  --shadow-sm: 0 1px 2px rgba(0,0,0,.4);
-  --lc: #6BBF60; --nt: #A9C24F; --vu: #E2B843; --en: #E8884A;
-  --cr: #E05B4C; --ex: #7A8582; --dd: #8B9793;
-  color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
@@ -220,7 +180,8 @@ aside.rail {
 .sp .en { display: block; font-size: 14.5px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .sp[data-seen] .en { color: var(--accent); }
 .sp .la { display: block; font-size: 13px; color: var(--ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.sp .thumb { flex: none; width: 40px; height: 40px; border-radius: 5px; object-fit: cover; background: var(--surface-3); }
+.sp .thumb { flex: none; width: 66px; height: 44px; border-radius: 4px; object-fit: cover; background: var(--surface-3); box-shadow: var(--shadow-sm); }
+@media (max-width: 620px) { .sp .thumb { width: 52px; height: 36px; } }
 .sp .when { flex: none; font-family: var(--mono); font-size: 11.5px; color: var(--ink-3); }
 @media (max-width: 620px) { .sp .when { display: none; } }
 
@@ -351,7 +312,7 @@ aside.rail {
 /* Mobile: rail and detail become overlays */
 .railtoggle { display: none; background: none; border: 1px solid var(--line); border-radius: 6px; cursor: pointer; color: var(--ink-2); align-items: center; justify-content: center; }
 .railtoggle svg { width: 15px; height: 15px; }
-#scrim { display: none; position: fixed; inset: var(--head) 0 0 0; z-index: 38; background: rgba(8,18,16,.42); }
+#scrim { display: none; position: fixed; inset: var(--head) 0 0 0; z-index: 38; background: rgba(43,38,32,.38); }
 #scrim[data-on] { display: block; }
 
 @media (max-width: 900px) {
@@ -554,6 +515,11 @@ let saved = [];           // records from data/sightings.json
 let pending = [];         // records held in this browser
 let sightings = new Map();// sci -> [record, …]
 
+let allFamilies = [];     // every family name, sorted
+const famByOrder = new Map();   // order -> its families, sorted
+const orderOfFam = new Map();   // family -> the order it belongs to
+const famEnglish = new Map();   // family -> its English name
+
 let filtered = [];        // rows: {type:'g'|'s', …}
 let offsets = [];         // prefix-sum pixel offsets for virtual list
 let selected = null;
@@ -608,8 +574,18 @@ async function boot() {
   }));
   SP.forEach(s => byScientific.set(s.sci, s));
 
+  // Which families sit in which order, so the two dropdowns can track each other.
+  allFamilies = DB.families.map(f => f[0]).slice().sort();
+  for (const s of SP) {
+    if (!famByOrder.has(s.ord)) famByOrder.set(s.ord, new Set());
+    famByOrder.get(s.ord).add(s.fam);
+    orderOfFam.set(s.fam, s.ord);
+    famEnglish.set(s.fam, s.famEn);
+  }
+  for (const [o, set] of famByOrder) famByOrder.set(o, [...set].sort());
+
   fillSelect($("#fOrder"), DB.orders.slice().sort(), "All orders");
-  fillSelect($("#fFamily"), DB.families.map(f => f[0]).slice().sort(), "All families");
+  fillFamilies("");
 
   rebuildSightings();
   wire();
@@ -620,6 +596,25 @@ async function boot() {
 function fillSelect(sel, values, allLabel) {
   sel.innerHTML = '<option value="">' + allLabel + "</option>" +
     values.map(v => '<option value="' + esc(v) + '">' + esc(v) + "</option>").join("");
+}
+
+/* Rebuild the family dropdown to hold only the families of `order` (all of
+   them when order is ""). Keeps the current family if it still belongs, drops
+   it otherwise, and returns whatever family is selected afterwards. */
+function fillFamilies(order) {
+  const sel = $("#fFamily");
+  const keep = sel.value;
+  const list = order ? (famByOrder.get(order) || []) : allFamilies;
+  const label = order
+    ? "All " + list.length + " famil" + (list.length === 1 ? "y" : "ies") + " in " + order
+    : "All families";
+  sel.innerHTML = '<option value="">' + esc(label) + "</option>" +
+    list.map(f => {
+      const en = famEnglish.get(f);
+      return '<option value="' + esc(f) + '">' + esc(f) + (en ? " — " + esc(en) : "") + "</option>";
+    }).join("");
+  sel.value = list.includes(keep) ? keep : "";
+  return sel.value;
 }
 
 function rebuildSightings() {
@@ -766,9 +761,11 @@ function openDetail(sci) {
   html += '<div class="sec"><h3>' + (recs.length ? "Your records" : "Not on your list yet") + "</h3>";
   if (recs.length) {
     for (const r of recs) {
+      const bare = !r.date && !r.place;
       html += '<div class="record"><div class="rtop">' +
         (r.date ? '<span class="rdate">' + esc(r.date) + "</span>" : "") +
-        '<span class="rplace">' + esc(r.place || "—") + "</span></div>";
+        (bare ? '<span class="empty">Photo on file — no date or place recorded yet</span>'
+              : '<span class="rplace">' + esc(r.place || "place not recorded") + "</span>") + "</div>";
       if (typeof r.lat === "number" && typeof r.lon === "number")
         html += '<span class="rcoord">' + r.lat.toFixed(5) + ", " + r.lon.toFixed(5) +
           ' · <a href="https://www.openstreetmap.org/?mlat=' + r.lat + "&mlon=" + r.lon +
@@ -1127,8 +1124,23 @@ function wire() {
     clearTimeout(t);
     t = setTimeout(() => { filters.range = e.target.value; applyFilters(); }, 180);
   });
-  $("#fOrder").addEventListener("change", e => { filters.order = e.target.value; applyFilters(); });
-  $("#fFamily").addEventListener("change", e => { filters.family = e.target.value; applyFilters(); });
+  $("#fOrder").addEventListener("change", e => {
+    filters.order = e.target.value;
+    filters.family = fillFamilies(filters.order);   // narrow the families to match
+    applyFilters();
+  });
+  $("#fFamily").addEventListener("change", e => {
+    filters.family = e.target.value;
+    // Picking a family on its own also fills in the order it belongs to.
+    const ord = orderOfFam.get(filters.family);
+    if (filters.family && ord && filters.order !== ord) {
+      filters.order = ord;
+      $("#fOrder").value = ord;
+      fillFamilies(ord);
+      $("#fFamily").value = filters.family;
+    }
+    applyFilters();
+  });
   $("#fIucn").addEventListener("change", e => { filters.iucn = e.target.value; applyFilters(); });
   $("#segStatus").addEventListener("click", e => {
     const b = e.target.closest("button"); if (!b) return;
@@ -1138,7 +1150,9 @@ function wire() {
   $("#clearFilters").addEventListener("click", () => {
     Object.assign(filters, { q:"", status:"all", order:"", family:"", iucn:"", range:"" });
     $("#q").value = ""; $("#fRange").value = "";
-    $("#fOrder").value = ""; $("#fFamily").value = ""; $("#fIucn").value = "";
+    $("#fOrder").value = ""; $("#fIucn").value = "";
+    $("#fFamily").value = "";      // clear before rebuilding, or it is kept
+    fillFamilies("");
     [...$("#segStatus").children].forEach((c, i) => c.setAttribute("aria-pressed", String(i === 0)));
     applyFilters();
   });

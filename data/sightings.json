@@ -1,1 +1,1833 @@
-[]
+[
+  {
+    "sci": "Acanthis flammea",
+    "date": "",
+    "place": "",
+    "photo": "photos/Carduelis_flammea.jpg"
+  },
+  {
+    "sci": "Accipiter nisus",
+    "date": "",
+    "place": "",
+    "photo": "photos/accipiter_nisus.jpg"
+  },
+  {
+    "sci": "Acridotheres tristis",
+    "date": "",
+    "place": "",
+    "photo": "photos/Acridotheres_tristis.jpg"
+  },
+  {
+    "sci": "Aechmophorus occidentalis",
+    "date": "",
+    "place": "",
+    "photo": "photos/Aechmophorus_occidentalis.jpg"
+  },
+  {
+    "sci": "Aegithalos caudatus",
+    "date": "",
+    "place": "",
+    "photo": "photos/aegithalos_caudatus.jpg"
+  },
+  {
+    "sci": "Alauda arvensis",
+    "date": "",
+    "place": "",
+    "photo": "photos/Alauda_arvensis.jpg"
+  },
+  {
+    "sci": "Alcedo atthis",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/alcedo_atthis.jpg",
+    "lat": 52.447094,
+    "lon": 5.423525
+  },
+  {
+    "sci": "Alopochen aegyptiaca",
+    "date": "",
+    "place": "Netherlands",
+    "lat": 53.062375,
+    "lon": 4.830056
+  },
+  {
+    "sci": "Alopochen aegyptiaca",
+    "date": "",
+    "place": "South Africa",
+    "photo": "photos/Alopochen_aegyptiaca.jpg",
+    "lat": -32.073444,
+    "lon": 18.417742
+  },
+  {
+    "sci": "Amadina erythrocephala",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Amadina_erythrocephala.jpg",
+    "lat": -26.815489,
+    "lon": 17.800569
+  },
+  {
+    "sci": "Anarhynchus bicinctus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Charadrius_bicinctus.jpg"
+  },
+  {
+    "sci": "Anarhynchus frontalis",
+    "date": "",
+    "place": "",
+    "photo": "photos/Anarhynchus_frontalis.jpg"
+  },
+  {
+    "sci": "Anas aucklandica",
+    "date": "",
+    "place": "",
+    "photo": "photos/Anas_aucklandica.jpg"
+  },
+  {
+    "sci": "Anas capensis",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Anas_capensis.jpg",
+    "lat": -18.826964,
+    "lon": 16.952062
+  },
+  {
+    "sci": "Anas erythrorhyncha",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Anas_erythrorhyncha.jpg",
+    "lat": -18.826964,
+    "lon": 16.952062
+  },
+  {
+    "sci": "Anas gracilis",
+    "date": "",
+    "place": "",
+    "photo": "photos/Anas_gracilis.jpg"
+  },
+  {
+    "sci": "Anas platyrhynchos",
+    "date": "",
+    "place": "",
+    "photo": "photos/Anas_platyrhynchos.jpg"
+  },
+  {
+    "sci": "Anas platyrhynchos",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/Avas_platyrhynchos.jpg",
+    "lat": 52.368547,
+    "lon": 5.214592
+  },
+  {
+    "sci": "Anas poecilorhyncha",
+    "date": "",
+    "place": "",
+    "photo": "photos/anas_poecilorhyncha.jpg"
+  },
+  {
+    "sci": "Anser albifrons",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/Anser_albifrons.jpg",
+    "lat": 52.994225,
+    "lon": 5.434756
+  },
+  {
+    "sci": "Anser anser",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/Anser_anser.jpg",
+    "lat": 52.485836,
+    "lon": 5.528333
+  },
+  {
+    "sci": "Anser cygnoides",
+    "date": "",
+    "place": "",
+    "photo": "photos/Anser_cygnoides.jpg"
+  },
+  {
+    "sci": "Anser fabalis",
+    "date": "",
+    "place": "",
+    "photo": "photos/Anser_fabalis.jpg"
+  },
+  {
+    "sci": "Anser indicus",
+    "date": "",
+    "place": "",
+    "photo": "photos/anser_indicus.jpg"
+  },
+  {
+    "sci": "Anthornis melanura",
+    "date": "",
+    "place": "",
+    "photo": "photos/anthornis_melanura.jpg"
+  },
+  {
+    "sci": "Anthus novaeseelandiae",
+    "date": "",
+    "place": "",
+    "photo": "photos/Anthus_novaeseelandia.jpg"
+  },
+  {
+    "sci": "Ardea alba",
+    "date": "",
+    "place": "",
+    "photo": "photos/Ardea_alba.jpg"
+  },
+  {
+    "sci": "Ardea alba",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/casmerodius_albus.jpg",
+    "lat": 52.456586,
+    "lon": 5.417083
+  },
+  {
+    "sci": "Ardea cinerea",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/Ardea_cinerea.jpg",
+    "lat": 52.462058,
+    "lon": 5.417581
+  },
+  {
+    "sci": "Ardea coromanda",
+    "date": "",
+    "place": "",
+    "photo": "photos/Bubulcus_coromandus.jpg"
+  },
+  {
+    "sci": "Ardea herodias",
+    "date": "",
+    "place": "",
+    "photo": "photos/Ardea_herodias.jpg"
+  },
+  {
+    "sci": "Ardea ibis",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Bubulcus_ibis.jpg",
+    "lat": -18.93695,
+    "lon": 16.70087
+  },
+  {
+    "sci": "Ardea intermedia",
+    "date": "",
+    "place": "",
+    "photo": "photos/mesophoyx_intermedia.jpg"
+  },
+  {
+    "sci": "Ardenna bulleri",
+    "date": "",
+    "place": "",
+    "photo": "photos/Puffinus_bulleri.jpg"
+  },
+  {
+    "sci": "Ardeotis kori",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Ardeotis_kori.jpg",
+    "lat": -19.017405,
+    "lon": 16.347165
+  },
+  {
+    "sci": "Aythya ferina",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/Aythya_ferina.jpg",
+    "lat": 52.394139,
+    "lon": 5.154597
+  },
+  {
+    "sci": "Aythya fuligula",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/Aythya_fuligula.jpg",
+    "lat": 53.394139,
+    "lon": 5.154597
+  },
+  {
+    "sci": "Aythya novaeseelandiae",
+    "date": "",
+    "place": "",
+    "photo": "photos/aythya_novaeseelandiae.jpg"
+  },
+  {
+    "sci": "Balearica regulorum",
+    "date": "",
+    "place": "",
+    "photo": "photos/Balearica_regulorum.jpg"
+  },
+  {
+    "sci": "Botaurus stellaris",
+    "date": "",
+    "place": "",
+    "photo": "photos/Botaurus_stellaris.jpg"
+  },
+  {
+    "sci": "Bradornis mariquensis",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Bradornis_mariquensis.jpg",
+    "lat": -24.852369,
+    "lon": 16.167147
+  },
+  {
+    "sci": "Branta bernicla",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/Branta_bernicla.jpg",
+    "lat": 53.157033,
+    "lon": 4.876803
+  },
+  {
+    "sci": "Branta canadensis",
+    "date": "",
+    "place": "",
+    "photo": "photos/branta_canadensis.jpg"
+  },
+  {
+    "sci": "Branta leucopsis",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/branta_leucopsis.jpg",
+    "lat": 52.994225,
+    "lon": 5.434756
+  },
+  {
+    "sci": "Bucephala clangula",
+    "date": "",
+    "place": "",
+    "photo": "photos/Bucephala_clangula.jpg"
+  },
+  {
+    "sci": "Bucorvus leadbeateri",
+    "date": "",
+    "place": "",
+    "photo": "photos/Bucorvus_cafer.jpg"
+  },
+  {
+    "sci": "Buteo buteo",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/buteo_buteo.jpg",
+    "lat": 52.431492,
+    "lon": 5.402628
+  },
+  {
+    "sci": "Buteo lagopus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Buteo_lagopus.jpg"
+  },
+  {
+    "sci": "Butorides virescens",
+    "date": "",
+    "place": "",
+    "photo": "photos/Butorides_veriscens.jpg"
+  },
+  {
+    "sci": "Calidris alba",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Calidris_alba.jpg",
+    "lat": -22.931744,
+    "lon": 14.476022
+  },
+  {
+    "sci": "Calidris alpina",
+    "date": "",
+    "place": "",
+    "photo": "photos/Calidris_alpina.jpg"
+  },
+  {
+    "sci": "Calidris pugnax",
+    "date": "",
+    "place": "",
+    "photo": "photos/Philomachus_pugnax.jpg"
+  },
+  {
+    "sci": "Callaeas wilsoni",
+    "date": "",
+    "place": "",
+    "photo": "photos/Callaeas_cinereus.jpg"
+  },
+  {
+    "sci": "Callipepla californica",
+    "date": "",
+    "place": "",
+    "photo": "photos/Callipepla_californica.jpg"
+  },
+  {
+    "sci": "Calypte anna",
+    "date": "",
+    "place": "",
+    "photo": "photos/Calypte_anna.jpg"
+  },
+  {
+    "sci": "Carduelis carduelis",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/carduelis_carduelis.jpg",
+    "lat": 52.268525,
+    "lon": 5.494939
+  },
+  {
+    "sci": "Charadrius semipalmatus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Charadrius_semipalmatus.jpg"
+  },
+  {
+    "sci": "Charadrius vociferus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Charadrius_vociferus.jpg"
+  },
+  {
+    "sci": "Chloris chloris",
+    "date": "",
+    "place": "",
+    "photo": "photos/carduelis_chloris.jpg"
+  },
+  {
+    "sci": "Chroicocephalus bulleri",
+    "date": "",
+    "place": "",
+    "photo": "photos/Larus_bulleri.jpg"
+  },
+  {
+    "sci": "Chroicocephalus novaehollandiae",
+    "date": "",
+    "place": "",
+    "photo": "photos/larus_novaehollandiae.jpg"
+  },
+  {
+    "sci": "Chroicocephalus ridibundus",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/larus_ridibundus.jpg",
+    "lat": 52.372222,
+    "lon": 5.247397
+  },
+  {
+    "sci": "Ciconia ciconia",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/ciconia_ciconia.jpg",
+    "lat": 52.4845,
+    "lon": 5.529042
+  },
+  {
+    "sci": "Cinnyris fuscus",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Nectarinia_fusca.jpg",
+    "lat": -24.852369,
+    "lon": 16.167147
+  },
+  {
+    "sci": "Circaetus pectoralis",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Circaetus_pectoralis.jpg",
+    "lat": -18.955184,
+    "lon": 16.534895
+  },
+  {
+    "sci": "Circus approximans",
+    "date": "",
+    "place": "",
+    "photo": "photos/Circus_approximans.jpg"
+  },
+  {
+    "sci": "Circus cyaneus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Circus_cyaneus.jpg"
+  },
+  {
+    "sci": "Coloeus monedula",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/corvus_monedula.jpg",
+    "lat": 52.785075,
+    "lon": 5.897097
+  },
+  {
+    "sci": "Columba guinea",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Columba_guinea.jpg",
+    "lat": -24.346398,
+    "lon": 18.401995
+  },
+  {
+    "sci": "Columba oenas",
+    "date": "",
+    "place": "",
+    "photo": "photos/Columba_oenas.jpg"
+  },
+  {
+    "sci": "Columba palumbus",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/columba_palumbus.jpg",
+    "lat": 52.269236,
+    "lon": 5.491278
+  },
+  {
+    "sci": "Copsychus saularis",
+    "date": "",
+    "place": "",
+    "photo": "photos/Copsychus_saularis.jpg"
+  },
+  {
+    "sci": "Coracias naevius",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Coracias_naevia.jpg",
+    "lat": -18.955373,
+    "lon": 16.531511
+  },
+  {
+    "sci": "Corvus albus",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Corvus_albus.jpg",
+    "lat": -24.723471,
+    "lon": 15.470976
+  },
+  {
+    "sci": "Corvus brachyrhynchos",
+    "date": "",
+    "place": "",
+    "photo": "photos/Corvus_brachyrhynchos.jpg"
+  },
+  {
+    "sci": "Corvus capensis",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Corvus_capensis.jpg",
+    "lat": -19.17585,
+    "lon": 15.916448
+  },
+  {
+    "sci": "Corvus corax",
+    "date": "",
+    "place": "England",
+    "photo": "photos/corvus_corax.jpg",
+    "lat": 51.507761,
+    "lon": 0.076172
+  },
+  {
+    "sci": "Corvus corone",
+    "date": "",
+    "place": "",
+    "photo": "photos/corvus_cornix.jpg"
+  },
+  {
+    "sci": "Corvus corone",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/corvus_corone.jpg",
+    "lat": 52.371097,
+    "lon": 5.208033
+  },
+  {
+    "sci": "Corvus frugilegus",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/corvus_frugilegus.jpg",
+    "lat": 52.782903,
+    "lon": 5.891083
+  },
+  {
+    "sci": "Corvus macrorhynchos",
+    "date": "",
+    "place": "",
+    "photo": "photos/corvus_macrorhynchos.jpg"
+  },
+  {
+    "sci": "Crinifer concolor",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Corythaixoides_concolor.jpg",
+    "lat": -18.804841,
+    "lon": 16.941456
+  },
+  {
+    "sci": "Crithagra flaviventris",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Serinus_flaviventris.jpg",
+    "lat": -23.893497,
+    "lon": 16.005436
+  },
+  {
+    "sci": "Cyanistes caeruleus",
+    "date": "",
+    "place": "",
+    "photo": "photos/parus_caeruleus.jpg"
+  },
+  {
+    "sci": "Cyanoramphus novaezelandiae",
+    "date": "",
+    "place": "",
+    "photo": "photos/cyanoramphus_novaezelandiae.jpg"
+  },
+  {
+    "sci": "Cygnus atratus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Cygnus_atratus.jpg"
+  },
+  {
+    "sci": "Cygnus columbianus",
+    "date": "",
+    "place": "Germany",
+    "photo": "photos/Cygnus_bewickii.jpg",
+    "lat": 54.2709,
+    "lon": 8.856506
+  },
+  {
+    "sci": "Cygnus cygnus",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/Cygnus_cygnus.jpg",
+    "lat": 52.485836,
+    "lon": 5.528333
+  },
+  {
+    "sci": "Cygnus olor",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/Cygnus_olor.jpg",
+    "lat": 52.368547,
+    "lon": 5.214592
+  },
+  {
+    "sci": "Daption capense",
+    "date": "",
+    "place": "",
+    "photo": "photos/Daption_capense.jpg"
+  },
+  {
+    "sci": "Delichon urbicum",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Delichon_urbicum.jpg",
+    "lat": -22.557325,
+    "lon": 17.083137
+  },
+  {
+    "sci": "Dendrocopos major",
+    "date": "",
+    "place": "",
+    "photo": "photos/Dendrocopos_major.jpg"
+  },
+  {
+    "sci": "Dicrurus adsimilis",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Dicrurus_adsimilis.jpg",
+    "lat": -19.315236,
+    "lon": 15.939221
+  },
+  {
+    "sci": "Diomedea epomophora",
+    "date": "",
+    "place": "",
+    "photo": "photos/Diomedea_epomophora.jpg"
+  },
+  {
+    "sci": "Diomedea exulans",
+    "date": "",
+    "place": "",
+    "photo": "photos/Diomedea_exulans.jpg"
+  },
+  {
+    "sci": "Egretta caerulea",
+    "date": "",
+    "place": "",
+    "photo": "photos/Egretta_caerulea.jpg"
+  },
+  {
+    "sci": "Egretta garzetta",
+    "date": "",
+    "place": "Orange River (South Africa / Namibia border)",
+    "photo": "photos/Egretta_garzetta.jpg",
+    "lat": -28.688826,
+    "lon": 17.55708
+  },
+  {
+    "sci": "Egretta novaehollandiae",
+    "date": "",
+    "place": "",
+    "photo": "photos/Egretta_novaehollandiae.jpg"
+  },
+  {
+    "sci": "Egretta thula",
+    "date": "",
+    "place": "",
+    "photo": "photos/Egretta_thula.jpg"
+  },
+  {
+    "sci": "Emberiza citrinella",
+    "date": "",
+    "place": "",
+    "photo": "photos/Emberiza_citrinella.jpg"
+  },
+  {
+    "sci": "Emberiza schoeniclus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Emberiza_schoeniclus.jpg"
+  },
+  {
+    "sci": "Erithacus rubecula",
+    "date": "",
+    "place": "",
+    "photo": "photos/erithacus_rubecula.jpg"
+  },
+  {
+    "sci": "Estrilda astrild",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Estrilda_astrild.jpg",
+    "lat": -22.67913,
+    "lon": 14.528971
+  },
+  {
+    "sci": "Eudyptes pachyrhynchus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Eudyptes_pachyrhynchus.jpg"
+  },
+  {
+    "sci": "Eudyptula minor",
+    "date": "",
+    "place": "",
+    "photo": "photos/Eudyptula_minor.jpg"
+  },
+  {
+    "sci": "Euplectes orix",
+    "date": "",
+    "place": "Orange River (South Africa / Namibia border)",
+    "photo": "photos/Euplectes_orix.jpg",
+    "lat": -28.687335,
+    "lon": 17.557327
+  },
+  {
+    "sci": "Falco rupicolus",
+    "date": "",
+    "place": "South Africa",
+    "lat": -32.041628,
+    "lon": 18.404083
+  },
+  {
+    "sci": "Falco sparverius",
+    "date": "",
+    "place": "",
+    "photo": "photos/Falco_sparverius.jpg"
+  },
+  {
+    "sci": "Falco tinnunculus",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/falco_tinnunculus.jpg",
+    "lat": 53.004508,
+    "lon": 4.748039
+  },
+  {
+    "sci": "Fringilla coelebs",
+    "date": "",
+    "place": "",
+    "photo": "photos/fringilla_coelebs.jpg"
+  },
+  {
+    "sci": "Fringilla montifringilla",
+    "date": "",
+    "place": "",
+    "photo": "photos/Fringilla_montifringilla.jpg"
+  },
+  {
+    "sci": "Fulica atra",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/Fulica_atra.jpg",
+    "lat": 52.372222,
+    "lon": 5.402628
+  },
+  {
+    "sci": "Fulica cristata",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Fulica_cristata.jpg",
+    "lat": -18.826964,
+    "lon": 16.952062
+  },
+  {
+    "sci": "Galerida magnirostris",
+    "date": "",
+    "place": "South Africa",
+    "photo": "photos/Galerida_magnirostris.jpg",
+    "lat": -32.962378,
+    "lon": 18.749456
+  },
+  {
+    "sci": "Gallinula chloropus",
+    "date": "",
+    "place": "Namibia",
+    "lat": -18.807413,
+    "lon": 16.939066
+  },
+  {
+    "sci": "Gallinula chloropus",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/Gallinula_chloropus.jpg",
+    "lat": 52.372222,
+    "lon": 5.247397
+  },
+  {
+    "sci": "Gallirallus australis",
+    "date": "",
+    "place": "",
+    "photo": "photos/Gallirallus_australis.jpg"
+  },
+  {
+    "sci": "Garrulus glandarius",
+    "date": "",
+    "place": "",
+    "photo": "photos/Garrulus_glandarius.jpg"
+  },
+  {
+    "sci": "Geopelia striata",
+    "date": "",
+    "place": "",
+    "photo": "photos/Geopelia_striata.jpg"
+  },
+  {
+    "sci": "Gorsachius melanolophus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Gorsachius_melanolophus.jpg"
+  },
+  {
+    "sci": "Gracupica nigricollis",
+    "date": "",
+    "place": "",
+    "photo": "photos/Gracupica_nigricollis.jpg"
+  },
+  {
+    "sci": "Gymnorhina tibicen",
+    "date": "",
+    "place": "",
+    "photo": "photos/Gymnorhina_tibicen.jpg"
+  },
+  {
+    "sci": "Gyps africanus",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Gyps_africanus.jpg",
+    "lat": -18.955184,
+    "lon": 16.534895
+  },
+  {
+    "sci": "Haematopus ostralegus",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/Haematopus_ostralegus.jpg",
+    "lat": 52.302025,
+    "lon": 5.359494
+  },
+  {
+    "sci": "Haematopus unicolor",
+    "date": "",
+    "place": "",
+    "photo": "photos/Haematopus_unicolor.jpg"
+  },
+  {
+    "sci": "Haemorhous mexicanus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Carpodacus_mexicanus.jpg"
+  },
+  {
+    "sci": "Hemiphaga novaeseelandiae",
+    "date": "",
+    "place": "",
+    "photo": "photos/Hemiphaga_novaeseelandiae.jpg"
+  },
+  {
+    "sci": "Himantopus himantopus",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Himantopus_himantopus.jpg",
+    "lat": -18.807413,
+    "lon": 16.939066
+  },
+  {
+    "sci": "Hirundo rustica",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/hirundo_rustica.jpg",
+    "lat": 52.487642,
+    "lon": 5.387639
+  },
+  {
+    "sci": "Hirundo tahitica",
+    "date": "",
+    "place": "",
+    "photo": "photos/Hirundo_tahitica.jpg"
+  },
+  {
+    "sci": "Hydroprogne caspia",
+    "date": "",
+    "place": "",
+    "photo": "photos/Sterna_caspia.jpg"
+  },
+  {
+    "sci": "Hypsipetes amaurotis",
+    "date": "",
+    "place": "",
+    "photo": "photos/Microscelis_amaurotis.jpg"
+  },
+  {
+    "sci": "Lamprotornis bicolor",
+    "date": "",
+    "place": "South Africa",
+    "photo": "photos/Spreo_bicolor.jpg",
+    "lat": -32.962378,
+    "lon": 18.749456
+  },
+  {
+    "sci": "Lamprotornis nitens",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Lamprotornis_nitens.jpg",
+    "lat": -19.17869,
+    "lon": 15.918256
+  },
+  {
+    "sci": "Lamprotornis superbus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Lamprotornis_superbus.jpg"
+  },
+  {
+    "sci": "Lanius collaris",
+    "date": "",
+    "place": "South Africa",
+    "photo": "photos/Lanius_collaris.jpg",
+    "lat": -32.177076,
+    "lon": 18.886823
+  },
+  {
+    "sci": "Larus argentatus",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/Larus_argentatus.jpg",
+    "lat": 52.372222,
+    "lon": 5.247397
+  },
+  {
+    "sci": "Larus dominicanus",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Larus_dominicanus.jpg",
+    "lat": -22.931744,
+    "lon": 14.476022
+  },
+  {
+    "sci": "Larus fuscus",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/larus_fuscus.jpg",
+    "lat": 52.368547,
+    "lon": 5.214592
+  },
+  {
+    "sci": "Larus heermanni",
+    "date": "",
+    "place": "",
+    "photo": "photos/Larus_heermanni.jpg"
+  },
+  {
+    "sci": "Larus occidentalis",
+    "date": "",
+    "place": "",
+    "photo": "photos/Larus_occidentalis.jpg"
+  },
+  {
+    "sci": "Leptoptilos crumenifer",
+    "date": "",
+    "place": "",
+    "photo": "photos/Leptoptilos_crumeniferus.jpg"
+  },
+  {
+    "sci": "Leucocarbo chalconotus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Phalacrocorax_chalconotus.jpg"
+  },
+  {
+    "sci": "Limosa lapponica",
+    "date": "",
+    "place": "",
+    "photo": "photos/Limosa_lapponica.jpg"
+  },
+  {
+    "sci": "Limosa limosa",
+    "date": "",
+    "place": "",
+    "photo": "photos/Limosa_limosa.jpg"
+  },
+  {
+    "sci": "Macronectes halli",
+    "date": "",
+    "place": "",
+    "photo": "photos/Macronectes_halli.jpg"
+  },
+  {
+    "sci": "Mareca penelope",
+    "date": "",
+    "place": "",
+    "photo": "photos/anas_penelope.jpg"
+  },
+  {
+    "sci": "Mareca strepera",
+    "date": "",
+    "place": "",
+    "photo": "photos/Mareca_strepera.jpg"
+  },
+  {
+    "sci": "Mareca strepera",
+    "date": "",
+    "place": "",
+    "photo": "photos/anas_strepera.jpg"
+  },
+  {
+    "sci": "Megadyptes antipodes",
+    "date": "",
+    "place": "",
+    "photo": "photos/Megadyptes_antipodes.jpg"
+  },
+  {
+    "sci": "Meleagris gallopavo",
+    "date": "",
+    "place": "",
+    "photo": "photos/Meleagris_gallopavo.jpg"
+  },
+  {
+    "sci": "Melierax canorus",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Melierax_canorus.jpg",
+    "lat": -19.030668,
+    "lon": 16.31705
+  },
+  {
+    "sci": "Mergellus albellus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Mergellus_albellus.jpg"
+  },
+  {
+    "sci": "Mergus merganser",
+    "date": "",
+    "place": "",
+    "photo": "photos/mergus_merganser.jpg"
+  },
+  {
+    "sci": "Microcarbo africanus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Phalacrocorax_africanus.jpg"
+  },
+  {
+    "sci": "Microcarbo melanoleucos",
+    "date": "",
+    "place": "",
+    "photo": "photos/Phalacrocorax_melanoleucos.jpg"
+  },
+  {
+    "sci": "Milvus migrans",
+    "date": "",
+    "place": "",
+    "photo": "photos/Milvus_migrans.jpg"
+  },
+  {
+    "sci": "Mohoua albicilla",
+    "date": "",
+    "place": "",
+    "photo": "photos/mohoua_albicilla.jpg"
+  },
+  {
+    "sci": "Motacilla aguimp",
+    "date": "",
+    "place": "Orange River (South Africa / Namibia border)",
+    "photo": "photos/Motacilla_aguimp.jpg",
+    "lat": -28.68771,
+    "lon": 17.557405
+  },
+  {
+    "sci": "Motacilla alba",
+    "date": "",
+    "place": "Germany",
+    "photo": "photos/motacilla_alba.jpg",
+    "lat": 53.740592,
+    "lon": 9.780742
+  },
+  {
+    "sci": "Motacilla capensis",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Motacilla_capensis.jpg",
+    "lat": -24.346398,
+    "lon": 18.401995
+  },
+  {
+    "sci": "Myrmecocichla monticola",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Oenanthe_monticola.jpg",
+    "lat": -26.815373,
+    "lon": 17.801127
+  },
+  {
+    "sci": "Nestor meridionalis",
+    "date": "",
+    "place": "",
+    "photo": "photos/nestor_meridionalis.jpg"
+  },
+  {
+    "sci": "Nestor notabilis",
+    "date": "",
+    "place": "",
+    "photo": "photos/Nestor_notabilis.jpg"
+  },
+  {
+    "sci": "Netta rufina",
+    "date": "",
+    "place": "Netherlands",
+    "lat": 53.067933,
+    "lon": 4.863667
+  },
+  {
+    "sci": "Nilaus afer",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Nilaus_afer.jpg",
+    "lat": -24.852369,
+    "lon": 16.167147
+  },
+  {
+    "sci": "Notiomystis cincta",
+    "date": "",
+    "place": "",
+    "photo": "photos/Notiomystis_cincta.jpg"
+  },
+  {
+    "sci": "Numenius americanus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Numenius_americanus.jpg"
+  },
+  {
+    "sci": "Numenius arquata",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/Numenius_arquata.jpg",
+    "lat": 53.081406,
+    "lon": 4.894306
+  },
+  {
+    "sci": "Numida meleagris",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Numida_meleagris.jpg",
+    "lat": -19.315236,
+    "lon": 15.939221
+  },
+  {
+    "sci": "Nycticorax nycticorax",
+    "date": "",
+    "place": "",
+    "photo": "photos/Nycticorax_nycticorax.jpg"
+  },
+  {
+    "sci": "Oena capensis",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Oena_capensis.jpg",
+    "lat": -19.17585,
+    "lon": 15.916448
+  },
+  {
+    "sci": "Oenanthe familiaris",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Cercomela_familiaris.jpg",
+    "lat": -27.577957,
+    "lon": 17.606313
+  },
+  {
+    "sci": "Onychognathus morio",
+    "date": "",
+    "place": "South Africa",
+    "photo": "photos/Onychognathus_morio.jpg",
+    "lat": -32.041844,
+    "lon": 18.4033
+  },
+  {
+    "sci": "Onychognathus nabouroup",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Onychognathus_nabouroup.jpg",
+    "lat": -24.631603,
+    "lon": 15.947588
+  },
+  {
+    "sci": "Oxyura jamaicensis",
+    "date": "",
+    "place": "",
+    "photo": "photos/Oxyura_jamaicensis.jpg"
+  },
+  {
+    "sci": "Pandion haliaetus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Pandion_haliaetus.jpg"
+  },
+  {
+    "sci": "Panurus biarmicus",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/panurus_biarmicus.jpg",
+    "lat": 52.475214,
+    "lon": 5.409969
+  },
+  {
+    "sci": "Paroaria coronata",
+    "date": "",
+    "place": "",
+    "photo": "photos/Paroaria_coronata.jpg"
+  },
+  {
+    "sci": "Parus major",
+    "date": "",
+    "place": "",
+    "photo": "photos/parus_major.jpg"
+  },
+  {
+    "sci": "Passer domesticus",
+    "date": "",
+    "place": "Germany",
+    "photo": "photos/passer_domesticus.jpg",
+    "lat": 54.074542,
+    "lon": 10.778867
+  },
+  {
+    "sci": "Passer melanurus",
+    "date": "",
+    "place": "South Africa",
+    "photo": "photos/Passer_melanurus.jpg",
+    "lat": -30.430507,
+    "lon": 17.936629
+  },
+  {
+    "sci": "Passer montanus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Passer_montanus.jpg"
+  },
+  {
+    "sci": "Passer motitensis",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Passer_motitensis.jpg",
+    "lat": -19.17869,
+    "lon": 15.918256
+  },
+  {
+    "sci": "Pelecanus occidentalis",
+    "date": "",
+    "place": "",
+    "photo": "photos/Pelecanus_occidentalis.jpg"
+  },
+  {
+    "sci": "Pelecanus onocrotalus",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Pelecanus_onocrotalus.jpg",
+    "lat": -22.948002,
+    "lon": 14.498957
+  },
+  {
+    "sci": "Petroica longipes",
+    "date": "",
+    "place": "",
+    "photo": "photos/petroica_australis.jpg"
+  },
+  {
+    "sci": "Petroica macrocephala",
+    "date": "",
+    "place": "",
+    "photo": "photos/Petroica_macrocephala.jpg"
+  },
+  {
+    "sci": "Phalacrocorax capensis",
+    "date": "",
+    "place": "Namibia",
+    "lat": -22.931744,
+    "lon": 14.476022
+  },
+  {
+    "sci": "Phalacrocorax carbo",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/phalacrocorax_carbo.jpg",
+    "lat": 52.406661,
+    "lon": 5.220769
+  },
+  {
+    "sci": "Phalacrocorax punctatus",
+    "date": "",
+    "place": "",
+    "photo": "photos/phalacrocorax_punctatus.jpg"
+  },
+  {
+    "sci": "Phalacrocorax sulcirostris",
+    "date": "",
+    "place": "",
+    "photo": "photos/Phalacrocorax_sulcirostris.jpg"
+  },
+  {
+    "sci": "Phalacrocorax varius",
+    "date": "",
+    "place": "",
+    "photo": "photos/phalacrocorax_varius.jpg"
+  },
+  {
+    "sci": "Phasianus colchicus",
+    "date": "",
+    "place": "Germany",
+    "photo": "photos/Phasianus_colchicus.jpg",
+    "lat": 53.740656,
+    "lon": 9.780653
+  },
+  {
+    "sci": "Philesturnus rufusater",
+    "date": "",
+    "place": "",
+    "photo": "photos/Philesturnus_carunculatus.jpg"
+  },
+  {
+    "sci": "Philetairus socius",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Philetairus_socius.jpg",
+    "lat": -24.631603,
+    "lon": 15.947588
+  },
+  {
+    "sci": "Phoenicopterus roseus",
+    "date": "",
+    "place": "Namibia",
+    "lat": -22.975458,
+    "lon": 14.481498
+  },
+  {
+    "sci": "Phoenicopterus ruber",
+    "date": "",
+    "place": "",
+    "photo": "photos/Phoenicopterus_ruber.jpg"
+  },
+  {
+    "sci": "Pica pica",
+    "date": "",
+    "place": "",
+    "photo": "photos/pica_pica.jpg"
+  },
+  {
+    "sci": "Platalea leucorodia",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/platalea_leucorodia.jpg",
+    "lat": 52.457819,
+    "lon": 5.416325
+  },
+  {
+    "sci": "Platalea minor",
+    "date": "",
+    "place": "",
+    "photo": "photos/Platalea_minor.jpg"
+  },
+  {
+    "sci": "Platalea regia",
+    "date": "",
+    "place": "",
+    "photo": "photos/Platalea_regia.jpg"
+  },
+  {
+    "sci": "Platycercus eximius",
+    "date": "",
+    "place": "",
+    "photo": "photos/Platycercus_eximius.jpg"
+  },
+  {
+    "sci": "Ploceus capensis",
+    "date": "",
+    "place": "South Africa",
+    "photo": "photos/Ploceus_capensis.jpg",
+    "lat": -30.430507,
+    "lon": 17.936629
+  },
+  {
+    "sci": "Ploceus velatus",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Ploceus_velatus.jpg",
+    "lat": -26.482057,
+    "lon": 18.24006
+  },
+  {
+    "sci": "Podiceps cristatus",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/podiceps_cristatus.jpg",
+    "lat": 52.368547,
+    "lon": 5.214592
+  },
+  {
+    "sci": "Podiceps nigricollis",
+    "date": "",
+    "place": "",
+    "photo": "photos/Podiceps_nigricollis.jpg"
+  },
+  {
+    "sci": "Poecile palustris",
+    "date": "",
+    "place": "",
+    "photo": "photos/Parus_palustris.jpg"
+  },
+  {
+    "sci": "Porphyrio hochstetteri",
+    "date": "",
+    "place": "",
+    "photo": "photos/Porphyrio_hochstetteri.jpg"
+  },
+  {
+    "sci": "Porphyrio porphyrio",
+    "date": "",
+    "place": "",
+    "photo": "photos/Porphyrio_prophyrio.jpg"
+  },
+  {
+    "sci": "Prinia flavicans",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Prinia_flavicans.jpg",
+    "lat": -23.439294,
+    "lon": 19.46374
+  },
+  {
+    "sci": "Procellaria aequinoctialis",
+    "date": "",
+    "place": "",
+    "photo": "photos/Procellaria_aequinoctialis.jpg"
+  },
+  {
+    "sci": "Procellaria westlandica",
+    "date": "",
+    "place": "",
+    "photo": "photos/Procellaria_westlandica.jpg"
+  },
+  {
+    "sci": "Prosthemadera novaeseelandiae",
+    "date": "",
+    "place": "",
+    "photo": "photos/prosthemadera_novaeseelandiae.jpg"
+  },
+  {
+    "sci": "Prunella modularis",
+    "date": "",
+    "place": "",
+    "photo": "photos/Prunella_modularis.jpg"
+  },
+  {
+    "sci": "Pternistis adspersus",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Francolinus_adspersus.jpg",
+    "lat": -18.804841,
+    "lon": 16.941456
+  },
+  {
+    "sci": "Pterorhinus perspicillatus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Garrulax_perspicillatus.jpg"
+  },
+  {
+    "sci": "Ptyonoprogne fuligula",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Hirundo_fuligula.jpg",
+    "lat": -26.815117,
+    "lon": 17.801056
+  },
+  {
+    "sci": "Pycnonotus jocosus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Pycnonotus_jocusus.jpg"
+  },
+  {
+    "sci": "Pycnonotus nigricans",
+    "date": "",
+    "place": "Orange River (South Africa / Namibia border)",
+    "photo": "photos/Pycnonotus_nigricans.jpg",
+    "lat": -28.687658,
+    "lon": 17.556744
+  },
+  {
+    "sci": "Pycnonotus sinensis",
+    "date": "",
+    "place": "",
+    "photo": "photos/Pycnonotus_sinensis.jpg"
+  },
+  {
+    "sci": "Recurvirostra avosetta",
+    "date": "",
+    "place": "",
+    "photo": "photos/Recurvirostra_avosetta.jpg"
+  },
+  {
+    "sci": "Regulus ignicapilla",
+    "date": "",
+    "place": "",
+    "photo": "photos/Regulus_ignicapilla.jpg"
+  },
+  {
+    "sci": "Rhipidura fuliginosa",
+    "date": "",
+    "place": "",
+    "photo": "photos/rhipidura_fuliginosa.jpg"
+  },
+  {
+    "sci": "Sagittarius serpentarius",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Sagittarius_serpentarius.jpg",
+    "lat": -18.959528,
+    "lon": 16.469458
+  },
+  {
+    "sci": "Sayornis nigricans",
+    "date": "",
+    "place": "",
+    "photo": "photos/Sayornis_nigricans.jpg"
+  },
+  {
+    "sci": "Setophaga coronata",
+    "date": "",
+    "place": "",
+    "photo": "photos/Dendroica_coronata.jpg"
+  },
+  {
+    "sci": "Sittiparus varius",
+    "date": "",
+    "place": "",
+    "photo": "photos/parus_varius.jpg"
+  },
+  {
+    "sci": "Spatula clypeata",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/anas_clypeata.jpg",
+    "lat": 52.467186,
+    "lon": 5.331261
+  },
+  {
+    "sci": "Spatula rhynchotis",
+    "date": "",
+    "place": "",
+    "photo": "photos/Anas_rhynchotis.jpg"
+  },
+  {
+    "sci": "Spheniscus demersus",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Spheniscus_demersus.jpg",
+    "lat": -22.931744,
+    "lon": 14.476022
+  },
+  {
+    "sci": "Spilopelia chinensis",
+    "date": "",
+    "place": "",
+    "photo": "photos/streptopelia_chinensis.jpg"
+  },
+  {
+    "sci": "Spilopelia senegalensis",
+    "date": "",
+    "place": "South Africa",
+    "photo": "photos/Stigmatopelia_senegalensis.jpg",
+    "lat": -32.175137,
+    "lon": 18.886907
+  },
+  {
+    "sci": "Spinus spinus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Carduelis_spinus.jpg"
+  },
+  {
+    "sci": "Sterna striata",
+    "date": "",
+    "place": "",
+    "photo": "photos/Sterna_striata.jpg"
+  },
+  {
+    "sci": "Streptopelia decaocto",
+    "date": "",
+    "place": "",
+    "photo": "photos/streptopelia_decaocto.jpg"
+  },
+  {
+    "sci": "Streptopelia orientalis",
+    "date": "",
+    "place": "",
+    "photo": "photos/streptopelia_orientalis.jpg"
+  },
+  {
+    "sci": "Streptopelia roseogrisea",
+    "date": "",
+    "place": "",
+    "photo": "photos/Streptopelia_risoria.jpg"
+  },
+  {
+    "sci": "Streptopelia semitorquata",
+    "date": "",
+    "place": "South Africa",
+    "photo": "photos/Streptopelia_semitorquata.jpg",
+    "lat": -32.073444,
+    "lon": 18.417742
+  },
+  {
+    "sci": "Strigops habroptilus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Strigops_habroptilus.jpg"
+  },
+  {
+    "sci": "Struthio camelus",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Struthio_camelus.jpg",
+    "lat": -19.315236,
+    "lon": 15.939221
+  },
+  {
+    "sci": "Sturnus vulgaris",
+    "date": "",
+    "place": "",
+    "photo": "photos/sturnus_vulgaris.jpg"
+  },
+  {
+    "sci": "Tachyspiza badia",
+    "date": "",
+    "place": "Namibia",
+    "lat": -19.039286,
+    "lon": 16.327781
+  },
+  {
+    "sci": "Tachyspiza minulla",
+    "date": "",
+    "place": "",
+    "photo": "photos/Accipiter_minullus.jpg"
+  },
+  {
+    "sci": "Tadorna tadorna",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/Tadorna_tadorna.jpg",
+    "lat": 53.062375,
+    "lon": 4.830056
+  },
+  {
+    "sci": "Tadorna variegata",
+    "date": "",
+    "place": "",
+    "photo": "photos/Tadorna_variegata.jpg"
+  },
+  {
+    "sci": "Thalassarche cauta",
+    "date": "",
+    "place": "",
+    "photo": "photos/Thalassarche_cauta.jpg"
+  },
+  {
+    "sci": "Thalasseus elegans",
+    "date": "",
+    "place": "",
+    "photo": "photos/Sterna_elegans.jpg"
+  },
+  {
+    "sci": "Thinornis melanops",
+    "date": "",
+    "place": "",
+    "photo": "photos/Elseyornis_melanops.jpg"
+  },
+  {
+    "sci": "Threskiornis aethiopicus",
+    "date": "",
+    "place": "Orange River (South Africa / Namibia border)",
+    "photo": "photos/Threskiornis_aethiopicus.jpg",
+    "lat": -28.68885,
+    "lon": 17.557014
+  },
+  {
+    "sci": "Threskiornis molucca",
+    "date": "",
+    "place": "",
+    "photo": "photos/Threskiornis_molucca.jpg"
+  },
+  {
+    "sci": "Tockus leucomelas",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Tockus_leucomelas.jpg",
+    "lat": -18.961363,
+    "lon": 16.523433
+  },
+  {
+    "sci": "Todiramphus sanctus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Todiramphus_sancta.jpg"
+  },
+  {
+    "sci": "Tringa glareola",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Tringa_glareola.jpg",
+    "lat": -18.807413,
+    "lon": 16.939066
+  },
+  {
+    "sci": "Tringa melanoleuca",
+    "date": "",
+    "place": "",
+    "photo": "photos/Tringa_melanoleuca.jpg"
+  },
+  {
+    "sci": "Tringa totanus",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/tringa_totanus.jpg",
+    "lat": 53.051214,
+    "lon": 4.863372
+  },
+  {
+    "sci": "Turdus iliacus",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/turdus_iliacus.jpg",
+    "lat": 52.352347,
+    "lon": 5.494122
+  },
+  {
+    "sci": "Turdus merula",
+    "date": "",
+    "place": "",
+    "photo": "photos/turdus_merula.jpg"
+  },
+  {
+    "sci": "Turdus philomelos",
+    "date": "",
+    "place": "",
+    "photo": "photos/Turdus_philomelos.jpg"
+  },
+  {
+    "sci": "Turdus pilaris",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/turdus_pilaris.jpg",
+    "lat": 53.061714,
+    "lon": 4.83705
+  },
+  {
+    "sci": "Turdus viscivorus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Turdus_viscivorus.jpg"
+  },
+  {
+    "sci": "Tyto alba",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Tyto_alba.jpg",
+    "lat": -19.036477,
+    "lon": 16.340944
+  },
+  {
+    "sci": "Vanellus armatus",
+    "date": "",
+    "place": "Namibia",
+    "photo": "photos/Vanellus_armatus.jpg",
+    "lat": -18.807413,
+    "lon": 16.939066
+  },
+  {
+    "sci": "Vanellus coronatus",
+    "date": "",
+    "place": "",
+    "photo": "photos/Vanellus_coronatus.jpg"
+  },
+  {
+    "sci": "Vanellus miles",
+    "date": "",
+    "place": "",
+    "photo": "photos/Vanellus_miles.jpg"
+  },
+  {
+    "sci": "Vanellus vanellus",
+    "date": "",
+    "place": "Netherlands",
+    "photo": "photos/Vanellus_vanellus.jpg",
+    "lat": 53.029753,
+    "lon": 4.810267
+  },
+  {
+    "sci": "Zenaida macroura",
+    "date": "",
+    "place": "",
+    "photo": "photos/Zenaida_macroura.jpg"
+  },
+  {
+    "sci": "Zonotrichia leucophrys",
+    "date": "",
+    "place": "",
+    "photo": "photos/Zonotrichia_leucophrys.jpg"
+  },
+  {
+    "sci": "Zosterops japonicus",
+    "date": "",
+    "place": "",
+    "photo": "photos/zosterops_japonicus.jpg"
+  },
+  {
+    "sci": "Zosterops lateralis",
+    "date": "",
+    "place": "",
+    "photo": "photos/zosterops_lateralis.jpg"
+  }
+]

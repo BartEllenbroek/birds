@@ -197,9 +197,10 @@ aside.rail {
 
 /* ── Detail panel ────────────────────────────────────────── */
 .detail {
-  width: 372px; flex: none; border-left: 1px solid var(--line);
+  width: 460px; flex: none; border-left: 1px solid var(--line);
   background: var(--surface); overflow-y: auto; display: none;
 }
+@media (max-width: 1250px) { .detail { width: 400px; } }
 .detail[data-open] { display: block; }
 .detail .dpad { padding: 18px 20px 28px; display: flex; flex-direction: column; gap: 16px; }
 .detail .closer {
@@ -233,15 +234,27 @@ aside.rail {
 .links a:hover { border-color: var(--accent); color: var(--accent); }
 .empty { color: var(--ink-3); font-size: 13px; font-style: italic; }
 
+/* Small map inside the detail panel, showing where this species was seen */
+#dmap {
+  height: 220px; border-radius: var(--r); overflow: hidden;
+  border: 1px solid var(--line); background: var(--surface-2); margin-bottom: 10px;
+}
+.dmapnote { font-size: 12px; color: var(--ink-3); }
+
 /* ── Map ─────────────────────────────────────────────────── */
 #map { flex: 1; min-height: 0; background: var(--surface-2); }
 .leaflet-container { font-family: var(--sans); background: var(--surface-2); }
 .leaflet-popup-content-wrapper { border-radius: var(--r); background: var(--surface); color: var(--ink); box-shadow: var(--shadow); }
 .leaflet-popup-tip { background: var(--surface); }
-.leaflet-popup-content { margin: 11px 13px; font-size: 13px; }
-.leaflet-popup-content b { display: block; font-size: 14px; }
+.leaflet-popup-content { margin: 0; font-size: 13px; width: 220px !important; }
+.leaflet-popup-content .pop { padding: 10px 12px 11px; }
+.leaflet-popup-content b { display: block; font-size: 14px; line-height: 1.25; }
 .leaflet-popup-content i { font-family: var(--serif); color: var(--ink-2); }
 .leaflet-popup-content .num { display: block; color: var(--ink-3); font-size: 11.5px; margin-top: 3px; }
+.leaflet-popup-content .popimg {
+  display: block; width: 100%; height: 132px; object-fit: cover;
+  border-radius: var(--r) var(--r) 0 0; background: var(--surface-2);
+}
 .leaflet-control-attribution { background: var(--surface) !important; color: var(--ink-3) !important; }
 .leaflet-control-attribution a { color: var(--ink-2) !important; }
 
@@ -523,7 +536,7 @@ const famEnglish = new Map();   // family -> its English name
 let filtered = [];        // rows: {type:'g'|'s', …}
 let offsets = [];         // prefix-sum pixel offsets for virtual list
 let selected = null;
-let map = null, markerLayer = null;
+let map = null, markerLayer = null, detailMap = null;
 
 const HDR_H = 34, ROW_H = 54;
 const IUCN_LABEL = {
@@ -758,7 +771,10 @@ function openDetail(sci) {
           (s.ext ? ' <span style="font-size:12.5px;color:var(--cr)">· extinct or possibly extinct</span>' : "") + "</div>";
   if (s.range) html += '<p class="range">' + esc(s.range) + "</p>";
 
+  const located = recs.filter(r => typeof r.lat === "number" && typeof r.lon === "number");
   html += '<div class="sec"><h3>' + (recs.length ? "Your records" : "Not on your list yet") + "</h3>";
+  if (located.length) html += '<div id="dmap"></div>';
+  else if (recs.length) html += '<p class="dmapnote">No coordinates on this one yet, so it is not on the map.</p>';
   if (recs.length) {
     for (const r of recs) {
       const bare = !r.date && !r.place;
@@ -788,11 +804,41 @@ function openDetail(sci) {
 
   $("#detailBody").innerHTML = html;
   $("#detail").setAttribute("data-open", "");
+  drawDetailMap(located, s);
   renderWindow();
+}
+
+/* The panel's own small map. The panel is rebuilt from scratch on every
+   selection, so the previous Leaflet instance has to be torn down first. */
+function drawDetailMap(located, s) {
+  if (detailMap) { detailMap.remove(); detailMap = null; }
+  const host = $("#dmap");
+  if (!host || !located.length || typeof L === "undefined") return;
+
+  const accent = getComputedStyle(document.documentElement).getPropertyValue("--accent").trim() || "#0F6157";
+  detailMap = L.map(host, {
+    zoomControl: false, attributionControl: false,
+    scrollWheelZoom: false, dragging: true
+  });
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 18 }).addTo(detailMap);
+  L.control.zoom({ position: "topright" }).addTo(detailMap);
+
+  const pts = [];
+  for (const r of located) {
+    pts.push([r.lat, r.lon]);
+    L.circleMarker([r.lat, r.lon], {
+      radius: 7, color: accent, weight: 2, fillColor: accent, fillOpacity: .5
+    }).bindPopup('<div class="pop"><b>' + esc(s.en) + "</b>" +
+      '<span class="num">' + esc(r.place || "") + "</span></div>").addTo(detailMap);
+  }
+  if (pts.length === 1) detailMap.setView(pts[0], 9);
+  else detailMap.fitBounds(L.latLngBounds(pts).pad(0.3), { maxZoom: 9 });
+  setTimeout(() => detailMap && detailMap.invalidateSize(), 60);
 }
 
 function closeDetail() {
   selected = null;
+  if (detailMap) { detailMap.remove(); detailMap = null; }
   $("#detail").removeAttribute("data-open");
   renderWindow();
 }
@@ -817,12 +863,14 @@ function renderMap() {
     for (const r of recs) {
       if (typeof r.lat !== "number" || typeof r.lon !== "number") continue;
       pts.push([r.lat, r.lon]);
+      const photo = r.photo || (recs.find(x => x.photo) || {}).photo;
+      const body =
+        (photo ? '<img class="popimg" src="' + esc(photo) + '" alt="" loading="lazy" onerror="this.remove()">' : "") +
+        '<div class="pop"><b>' + esc(s ? s.en : sci) + "</b><i>" + esc(sci) + "</i>" +
+        '<span class="num">' + esc(r.place || "") + (r.date ? " · " + esc(r.date) : "") + "</span></div>";
       L.circleMarker([r.lat, r.lon], {
         radius: 6, color: accent, weight: 2, fillColor: accent, fillOpacity: .45
-      }).bindPopup(
-        "<b>" + esc(s ? s.en : sci) + "</b><i>" + esc(sci) + "</i>" +
-        '<span class="num">' + esc(r.place || "") + (r.date ? " · " + esc(r.date) : "") + "</span>"
-      ).addTo(markerLayer);
+      }).bindPopup(body, { maxWidth: 220, minWidth: 220 }).addTo(markerLayer);
     }
   }
   setTimeout(() => {

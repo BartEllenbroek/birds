@@ -1,0 +1,45 @@
+[
+  {
+    "sci": "Petroica longipes",
+    "date": "2026-01-14",
+    "place": "Zealandia, Wellington",
+    "lat": -41.2967,
+    "lon": 174.7449,
+    "photo": "photos/north-island-robin-01.jpg"
+  },
+  {
+    "sci": "Notiomystis cincta",
+    "date": "2026-01-14",
+    "place": "Zealandia, Wellington",
+    "lat": -41.2951,
+    "lon": 174.7462
+  },
+  {
+    "sci": "Apteryx mantelli",
+    "date": "2025-11-02",
+    "place": "Pukaha Mount Bruce",
+    "lat": -40.7742,
+    "lon": 175.6403
+  },
+  {
+    "sci": "Aptenodytes forsteri",
+    "date": "2019-12-08",
+    "place": "Cape Washington, Ross Sea",
+    "lat": -74.6417,
+    "lon": 165.4
+  },
+  {
+    "sci": "Recurvirostra avosetta",
+    "date": "2024-06-21",
+    "place": "Oostvaardersplassen, Flevoland",
+    "lat": 52.4508,
+    "lon": 5.3822
+  },
+  {
+    "sci": "Diomedea antipodensis",
+    "date": "2025-03-09",
+    "place": "Kaikōura pelagic",
+    "lat": -42.4167,
+    "lon": 173.7
+  }
+]
